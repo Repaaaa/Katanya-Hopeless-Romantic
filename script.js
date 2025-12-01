@@ -212,7 +212,7 @@ const ditolakGif = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjJoNXl4MW
               buttons: [{
                 text: 'OK', action: () => {
                   closeModal();
-                  window.location.href = "https://wa.me/62895604473976?text=Iya,+aku+mau+jadi+pacar+kamu.";
+                  window.location.href = "https://api.whatsapp.com/send/?phone=62895604473976&text=Iya%2C+aku+mau+jadi+pacar+kamu.&type=phone_number&app_absent=0";
                 }
               }]
             }), 120);
@@ -254,7 +254,7 @@ const ditolakGif = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjJoNXl4MW
                               text: 'iyaa, sama-sama',
                               action: () => {
                                 closeModal();
-                                window.location.href = "https://wa.me/62895604473976?text=Iya,+aku+mau+jadi+pacar+kamu.";
+                                window.location.href = "https://api.whatsapp.com/send/?phone=62895604473976&text=Iya%2C+aku+mau+jadi+pacar+kamu.&type=phone_number&app_absent=0";
                               }
                             }
                           ]
